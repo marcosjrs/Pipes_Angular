@@ -30,5 +30,6 @@ export class AppComponent {
 
   textoACapitalizar="Fulanito de tal";
   urlYoutube = "https://www.youtube.com/embed/";
+  codigo="2c3tnoWdiBc";
   codificar = true;
 }

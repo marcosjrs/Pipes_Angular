@@ -125,6 +125,13 @@
         <td>Pipe personalizado: capitalizado</td>
         <td>{{textoACapitalizar | capitalizado:true}}</td>
       </tr>
+      <tr>
+        <td>{{urlYoutube}} + {{codigo}}</td>
+        <td>Pipe personalizado: domSeguro</td>
+        <td>
+          <iframe width="280" height="157" [src]="urlYoutube | domSeguro: codigo" frameborder="0" allowfullscreen></iframe>
+        </td>
+      </tr>
       
     </tbody>
   </table>
