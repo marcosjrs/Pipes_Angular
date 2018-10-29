@@ -28,7 +28,7 @@ export class AppComponent {
   );
   fecha =new Date();
 
-  nombreMalEscrito="Fulanito de tal";
+  textoACapitalizar="Fulanito de tal";
   urlYoutube = "https://www.youtube.com/embed/";
   codificar = true;
 }
